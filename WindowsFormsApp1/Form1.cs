@@ -15,6 +15,23 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            var button = new Button()
+
+            {
+                Bounds = new Rectangle(0, 0, 100, 50),
+                Text = "Hello",
+
+
+            };
+
+
+            this.Controls.Add(button);
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
